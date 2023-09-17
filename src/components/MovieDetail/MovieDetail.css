@@ -1,0 +1,170 @@
+.movie-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+  color: #ffffff;
+}
+
+.section-left {
+  padding: 0px 40px;
+}
+
+.movie-rating {
+  display: flex;
+  padding: 10px 0px;
+  color: rgb(105, 105, 206);
+}
+
+.movie-rating > span {
+  margin-right: 50px;
+}
+
+.movie-plot {
+  margin-top: 20px;
+  line-height: 1.8rem;
+}
+
+.fa-star {
+  color: #ff9e00;
+}
+.fa-thumbs-up {
+  color: #fafafa;
+}
+
+.fa-film {
+  color: rgb(191, 213, 214);
+}
+
+.fa-calendar {
+  color: peachpuff;
+}
+
+.downloadButton {
+  font-size: 30px;
+  background: #ff9e00;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.loading {
+  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px auto;
+  color: yellow;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-info > div {
+  display: flex;
+  align-items: center;
+}
+
+.movie-info > div > :first-child {
+  padding: 10px 0px;
+  color: #ffffff;
+  font-weight: 600;
+  width: 100px;
+  display: inline-block;
+}
+
+.movie-info > div > :last-child {
+  color: rgb(105, 105, 206);
+  display: inline-block;
+}
+
+.moviespan {
+  margin-right: 39px;
+}
+
+.section-right {
+  height: 66vh;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.section-right > span {
+  cursor: pointer;
+}
+
+.section-right > img {
+  height: 64vh;
+  width: 20vw;
+  margin-bottom: 10px;
+}
+
+.movie-title {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .movie-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movie-rating {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(105, 105, 206);
+  }
+
+  .movie-plot {
+    margin-top: 20px;
+    line-height: 2rem;
+    font-size: 24px;
+  }
+
+  .section-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .movie-rating > span {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .section-right > img {
+    height: 50vh;
+    width: 65vw;
+  }
+
+  .movie-title {
+    font-size: 50px;
+    color: #ffffff;
+  }
+
+  .movie-info > div > :first-child {
+    padding: 30px 0px;
+    color: #ffffff;
+    font-weight: 600;
+    width: 100px;
+    display: inline-block;
+  }
+
+  .section-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-right > img {
+    margin: 30px;
+  }
+
+  .movie-info > div > span {
+    font-size: 24px;
+  }
+}
