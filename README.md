@@ -1,7 +1,7 @@
 # Project live on - https://movie-app-pi-lake.vercel.app/
 
 
-https://github.com/Kashifraza1208/movie-app/assets/60813449/d3726b91-dab0-4cf9-bb9c-9de0848c2727
+
 
 Project Title: Movie App
 
@@ -31,4 +31,4 @@ Feel free to customize this summary to match your specific experiences and achie
 
 
 
-https://github.com/Kashifraza1208/movie-app/assets/60813449/d3726b91-dab0-4cf9-bb9c-9de0848c2727
+
